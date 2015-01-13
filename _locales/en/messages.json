@@ -1,0 +1,6 @@
+{
+  "appNotSupported": {
+    "message": "App is not supported on this computer.",
+    "description": "Error message shown when the computer's GPU is not supported by Chrome."
+  }
+}

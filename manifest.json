@@ -1,0 +1,34 @@
+{
+  "update_url": "http://localhost",
+  "name": "ARChon Custom Runtime 1.2.1 - x86_64",
+  "manifest_version": 2,
+  "minimum_chrome_version": "32",
+  "version": "38.4410.120.45",
+  "default_locale": "en",
+  "arc_build_tag": "arc-runtime-38.4410.120.45",
+  "about_page": "NOTICE.html",
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwTjmSbBD9uFJEUR7jMYAL1sPXqCNe7ljIb6dheKIYjkNtLt1YuiAw4Pul/PO+aYtm8tsbFnsNZ73AxhMX9aPxuzwlAak/iN6atxv7h8mwOg6HiHdxTDnOPrCv7fEud5aUFaq7sqDhiqwMpJoIOa1w7c299z3oXIrG1FGEkid1IQIDAQAB",
+  "export": {
+    "resources": [
+      "*"
+    ]
+  },
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "platforms": [
+    {
+      "nacl_arch": "x86-32",
+      "sub_package_path": "_platform_specific/nacl_i686/"
+    },
+    {
+      "nacl_arch": "x86-64",
+      "sub_package_path": "_platform_specific/nacl_x86_64/"
+    },
+    {
+      "nacl_arch": "arm",
+      "sub_package_path": "_platform_specific/bare_metal_arm/"
+    }
+  ]
+}

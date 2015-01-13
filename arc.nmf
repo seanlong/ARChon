@@ -1,0 +1,895 @@
+{
+  "files": {
+    "audio.primary.arc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/audio.primary.arc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/audio.primary.arc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/audio.primary.arc.so"
+      }
+    }, 
+    "audio_policy.default.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/audio_policy.default.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/audio_policy.default.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/audio_policy.default.so"
+      }
+    }, 
+    "camera.default.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/camera.default.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/camera.default.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/camera.default.so"
+      }
+    }, 
+    "dalvikvm.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/dalvikvm.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/dalvikvm.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/dalvikvm.so"
+      }
+    }, 
+    "dexopt.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/dexopt.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/dexopt.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/dexopt.so"
+      }
+    }, 
+    "egl.cfg": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/egl/egl.cfg"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/egl/egl.cfg"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/egl/egl.cfg"
+      }
+    }, 
+    "gps.arc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/gps.arc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/gps.arc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/gps.arc.so"
+      }
+    }, 
+    "gralloc.arc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/gralloc.arc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/gralloc.arc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/gralloc.arc.so"
+      }
+    }, 
+    "gralloc.default.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/gralloc.default.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/gralloc.default.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/gralloc.default.so"
+      }
+    }, 
+    "keystore.default.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/keystore.default.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/keystore.default.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/keystore.default.so"
+      }
+    }, 
+    "libEGL_emulation.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/egl/libEGL_emulation.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/egl/libEGL_emulation.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/egl/libEGL_emulation.so"
+      }
+    }, 
+    "libEGL_translator.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libEGL_translator.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libEGL_translator.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libEGL_translator.so"
+      }
+    }, 
+    "libGLES_CM_translator.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libGLES_CM_translator.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libGLES_CM_translator.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libGLES_CM_translator.so"
+      }
+    }, 
+    "libGLES_V2_translator.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libGLES_V2_translator.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libGLES_V2_translator.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libGLES_V2_translator.so"
+      }
+    }, 
+    "libGLES_android.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/egl/libGLES_android.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/egl/libGLES_android.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/egl/libGLES_android.so"
+      }
+    }, 
+    "libGLES_trace.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libGLES_trace.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libGLES_trace.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libGLES_trace.so"
+      }
+    }, 
+    "libGLESv1_CM_emulation.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/egl/libGLESv1_CM_emulation.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/egl/libGLESv1_CM_emulation.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/egl/libGLESv1_CM_emulation.so"
+      }
+    }, 
+    "libGLESv1_enc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libGLESv1_enc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libGLESv1_enc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libGLESv1_enc.so"
+      }
+    }, 
+    "libGLESv2_emulation.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/egl/libGLESv2_emulation.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/egl/libGLESv2_emulation.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/egl/libGLESv2_emulation.so"
+      }
+    }, 
+    "libGLESv2_enc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libGLESv2_enc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libGLESv2_enc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libGLESv2_enc.so"
+      }
+    }, 
+    "libOpenglRender.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libOpenglRender.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libOpenglRender.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libOpenglRender.so"
+      }
+    }, 
+    "libOpenglSystemCommon.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libOpenglSystemCommon.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libOpenglSystemCommon.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libOpenglSystemCommon.so"
+      }
+    }, 
+    "lib_renderControl_enc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/lib_renderControl_enc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/lib_renderControl_enc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/lib_renderControl_enc.so"
+      }
+    }, 
+    "libandroidfw.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libandroidfw.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libandroidfw.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libandroidfw.so"
+      }
+    }, 
+    "libaudio-resampler.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libaudio-resampler.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libaudio-resampler.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libaudio-resampler.so"
+      }
+    }, 
+    "libaudioeffect_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libaudioeffect_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libaudioeffect_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libaudioeffect_jni.so"
+      }
+    }, 
+    "libbundlewrapper.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/soundfx/libbundlewrapper.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/soundfx/libbundlewrapper.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/soundfx/libbundlewrapper.so"
+      }
+    }, 
+    "libc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libc.so"
+      }
+    }, 
+    "libdl.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libdl.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libdl.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libdl.so"
+      }
+    }, 
+    "libdownmix.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/soundfx/libdownmix.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/soundfx/libdownmix.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/soundfx/libdownmix.so"
+      }
+    }, 
+    "libdrmframework.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libdrmframework.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libdrmframework.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libdrmframework.so"
+      }
+    }, 
+    "libdrmframework_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libdrmframework_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libdrmframework_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libdrmframework_jni.so"
+      }
+    }, 
+    "libdrmpassthruplugin.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libdrmpassthruplugin.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libdrmpassthruplugin.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libdrmpassthruplugin.so"
+      }
+    }, 
+    "libdvm.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libdvm.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libdvm.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libdvm.so"
+      }
+    }, 
+    "libexif.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libexif.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libexif.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libexif.so"
+      }
+    }, 
+    "libexif_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libexif_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libexif_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libexif_jni.so"
+      }
+    }, 
+    "libfilterfw.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libfilterfw.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libfilterfw.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libfilterfw.so"
+      }
+    }, 
+    "libfilterpack_imageproc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libfilterpack_imageproc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libfilterpack_imageproc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libfilterpack_imageproc.so"
+      }
+    }, 
+    "libfwdlockengine.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libfwdlockengine.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libfwdlockengine.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libfwdlockengine.so"
+      }
+    }, 
+    "libjavacore.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libjavacore.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libjavacore.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libjavacore.so"
+      }
+    }, 
+    "libjavacoretests.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libjavacoretests.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libjavacoretests.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libjavacoretests.so"
+      }
+    }, 
+    "libjavacrypto.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libjavacrypto.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libjavacrypto.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libjavacrypto.so"
+      }
+    }, 
+    "libjnigraphics.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libjnigraphics.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libjnigraphics.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libjnigraphics.so"
+      }
+    }, 
+    "libkeystore.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/ssl/engines/libkeystore.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/ssl/engines/libkeystore.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/ssl/engines/libkeystore.so"
+      }
+    }, 
+    "libkeystore_binder.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libkeystore_binder.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libkeystore_binder.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libkeystore_binder.so"
+      }
+    }, 
+    "libm.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libm.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libm.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libm.so"
+      }
+    }, 
+    "libmedia_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libmedia_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libmedia_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libmedia_jni.so"
+      }
+    }, 
+    "libnativehelper.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libnativehelper.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libnativehelper.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libnativehelper.so"
+      }
+    }, 
+    "libnativehelper_compat.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libnativehelper_compat.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libnativehelper_compat.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libnativehelper_compat.so"
+      }
+    }, 
+    "libposix_translation.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libposix_translation.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libposix_translation.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libposix_translation.so"
+      }
+    }, 
+    "libreverbwrapper.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/soundfx/libreverbwrapper.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/soundfx/libreverbwrapper.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/soundfx/libreverbwrapper.so"
+      }
+    }, 
+    "librtp_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/librtp_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/librtp_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/librtp_jni.so"
+      }
+    }, 
+    "libsoundpool.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libsoundpool.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libsoundpool.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libsoundpool.so"
+      }
+    }, 
+    "libsqlite_jni.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libsqlite_jni.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libsqlite_jni.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libsqlite_jni.so"
+      }
+    }, 
+    "libstagefright_avc_common.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_avc_common.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_avc_common.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_avc_common.so"
+      }
+    }, 
+    "libstagefright_chromium_http.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_chromium_http.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_chromium_http.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_chromium_http.so"
+      }
+    }, 
+    "libstagefright_soft_aacdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_aacdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_aacdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_aacdec.so"
+      }
+    }, 
+    "libstagefright_soft_amrdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_amrdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_amrdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_amrdec.so"
+      }
+    }, 
+    "libstagefright_soft_amrnbenc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_amrnbenc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_amrnbenc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_amrnbenc.so"
+      }
+    }, 
+    "libstagefright_soft_g711dec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_g711dec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_g711dec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_g711dec.so"
+      }
+    }, 
+    "libstagefright_soft_gsmdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_gsmdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_gsmdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_gsmdec.so"
+      }
+    }, 
+    "libstagefright_soft_h264dec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_h264dec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_h264dec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_h264dec.so"
+      }
+    }, 
+    "libstagefright_soft_mp3dec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_mp3dec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_mp3dec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_mp3dec.so"
+      }
+    }, 
+    "libstagefright_soft_mpeg4dec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_mpeg4dec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_mpeg4dec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_mpeg4dec.so"
+      }
+    }, 
+    "libstagefright_soft_mpeg4enc.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_mpeg4enc.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_mpeg4enc.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_mpeg4enc.so"
+      }
+    }, 
+    "libstagefright_soft_rawdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_rawdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_rawdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_rawdec.so"
+      }
+    }, 
+    "libstagefright_soft_vorbisdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_vorbisdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_vorbisdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_vorbisdec.so"
+      }
+    }, 
+    "libstagefright_soft_vpxdec.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefright_soft_vpxdec.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefright_soft_vpxdec.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefright_soft_vpxdec.so"
+      }
+    }, 
+    "libstagefrighthw.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstagefrighthw.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstagefrighthw.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstagefrighthw.so"
+      }
+    }, 
+    "libstlport.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libstlport.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libstlport.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libstlport.so"
+      }
+    }, 
+    "libsurfaceflinger.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libsurfaceflinger.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libsurfaceflinger.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libsurfaceflinger.so"
+      }
+    }, 
+    "libutils.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libutils.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libutils.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libutils.so"
+      }
+    }, 
+    "libvisualizer.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/soundfx/libvisualizer.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/soundfx/libvisualizer.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/soundfx/libvisualizer.so"
+      }
+    }, 
+    "libwebviewchromium.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libwebviewchromium.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libwebviewchromium.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libwebviewchromium.so"
+      }
+    }, 
+    "libwebviewchromium_plat_support.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/libwebviewchromium_plat_support.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/libwebviewchromium_plat_support.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/libwebviewchromium_plat_support.so"
+      }
+    }, 
+    "local_time.default.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/hw/local_time.default.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/hw/local_time.default.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/hw/local_time.default.so"
+      }
+    }, 
+    "main.nexe": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/arc_bare_metal_arm.nexe"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/arc_nacl_i686.nexe"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/arc_nacl_x86_64.nexe"
+      }
+    }, 
+    "readonly_fs_image.img": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/readonly_fs_image.img"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/readonly_fs_image.img"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/readonly_fs_image.img"
+      }
+    }, 
+    "runnable-ld.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/runnable-ld.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/runnable-ld.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/runnable-ld.so"
+      }
+    }, 
+    "umareporter.so": {
+      "arm-nonsfi": {
+        "url": "_platform_specific/bare_metal_arm/umareporter.so"
+      }, 
+      "x86-32": {
+        "url": "_platform_specific/nacl_i686/umareporter.so"
+      }, 
+      "x86-64": {
+        "url": "_platform_specific/nacl_x86_64/umareporter.so"
+      }
+    }
+  }, 
+  "program": {
+    "arm-nonsfi": {
+      "url": "_platform_specific/bare_metal_arm/runnable-ld.so"
+    }, 
+    "x86-32": {
+      "url": "_platform_specific/nacl_i686/runnable-ld.so"
+    }, 
+    "x86-64": {
+      "url": "_platform_specific/nacl_x86_64/runnable-ld.so"
+    }
+  }
+}
