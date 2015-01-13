@@ -1,14 +1,10 @@
 # ARChon
-# Intel `x86_64` Version
+Fork from https://bitbucket.org/vladikoff/archon/ without NaCl binaries.
 
-**For the ARM version see the [ARM](https://bitbucket.org/vladikoff/archon/branches) branch
-and [downloads](https://bitbucket.org/vladikoff/archon/downloads).**
+This is an attempt to run Android APK without using Chrome extension.
 
-Unofficial work of the ARC Runtime.
-
-Designed to work with https://github.com/vladikoff/chromeos-apk
-
-Please see NOTICE.txt for license information.
-
-
-## This is hosted on BitBucket because GitHub has a 100mb file limit.
+**Steps:**  
+1. apply the chrome_patches/* and build the chrome, change hard codede the CRX fs path  
+2. run HTTP server on the root directory, like $python SimpleHTTPServer 7788  
+3. load localhost:7788/main.html to install the app(is this needed?)  
+4. load localhost:7788/index.html to run the app  
