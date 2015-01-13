@@ -150,7 +150,10 @@ var arcMetadata;
     // keys.
     this.defaults_ = {
       allowEmptyActivityStack: false,
-      apkList: [],
+  apkList: [
+    "custom-android-release-1400197.apk"
+  ],
+  //    apkList: [],
       canRotate: false,
       disableAutoBackButton: false,
       enableAdb: false,
@@ -164,32 +167,32 @@ var arcMetadata;
       jdbPort: 0,
       logLoadProgress: false,
       minimumLaunchDelay: 0,
-      name: '',
+      name: 'com.example.testsimpleapp',
       ndkAbi: '',
       orientation: 'portrait',
-      packageName: 'org.chromium.arc',
+      packageName: 'com.example.testsimpleapp',
       resize: 'disabled',
       shell: [],
       stderrLog: 'S',
       useGoogleContactsSyncAdapter: false,
       usePlayServices: [],
-      sleepOnBlur: true
+      sleepOnBlur: true,
     };
 
     this.data_ = {};
     this.computedValues_ = {};
 
-    if (chrome.runtime && chrome.runtime.getManifest) {
-      var manifest = chrome.runtime.getManifest();
-      this.data_ = manifest['arc_metadata'] || {};
+//    if (chrome.runtime && chrome.runtime.getManifest) {
+//      var manifest = chrome.runtime.getManifest();
+//      this.data_ = manifest['arc_metadata'] || {};
       // TODO(crbug.com/381689): Remove conversion once apps are all updated.
-      if (this.data_.enablePlayServices) {
-        this.data_.usePlayServices = ['ALL'];
-        delete this.data_.enablePlayServices;
-      }
-      this.validateData_();
-      this.computeValues_(manifest);
-    }
+//      if (this.data_.enablePlayServices) {
+//        this.data_.usePlayServices = ['ALL'];
+//        delete this.data_.enablePlayServices;
+//      }
+//      this.validateData_();
+      this.computeValues_({});
+//    }
   }
 
   ArcMetadata.prototype.get = function() {
@@ -326,9 +329,12 @@ var arcMetadata;
       var height = size.long;
     }
 
-    this.computedValues_['width'] = width;
-    this.computedValues_['height'] = height;
-    this.computedValues_['androidDensityDpi'] = size.androidDensityDpi;
+    //this.computedValues_['width'] = width;
+    //this.computedValues_['height'] = height;
+    //this.computedValues_['androidDensityDpi'] = size.androidDensityDpi;
+    this.computedValues_['width'] = 360;
+    this.computedValues_['height'] = 640;
+    this.computedValues_['androidDensityDpi'] = 160;
 
     // TODO(crbug.com/401702): Remove this once all apps that use OAuth2 are
     // repackaged.

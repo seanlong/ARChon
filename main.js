@@ -217,7 +217,7 @@ function onLaunch(args, opt_appWindowCreationCallback) {
   launchAppWindow();
 }
 
-chrome.app.runtime.onLaunched.addListener(onLaunch);
+//chrome.app.runtime.onLaunched.addListener(onLaunch);
 
 
 function installLogic() {
@@ -235,15 +235,21 @@ function installLogic() {
   });
 }
 
+window.onload = function() {
+  installLogic();
+}
+
+/*
 chrome.alarms.onAlarm.addListener(function(alarm) {
   if (alarm.name == 'onInstallUpdate') {
     if (!appLaunched)
       installLogic();
   }
 });
-
+*/
 // Fired when the extension is first installed, when the extension is updated
 // to a new version, and when Chrome is updated to a new version.
+/*
 chrome.runtime.onInstalled.addListener(function(details) {
   if (details.reason == 'install') {
     installLogic();
@@ -264,7 +270,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
   console.log('Delaying update install logic for ' + delay + ' minutes');
   chrome.alarms.create('onInstallUpdate', { delayInMinutes: delay });
 });
-
+*/
 // Handles 'jsClipboard' message. Returns true if this function handled
 // message, otherwise returns false.
 function handleClipboardMessageBg_(message, sendResponse) {
@@ -348,6 +354,7 @@ function handleUmaMessageBg_(message) {
 // priviliged operations that require to be in the background page, or
 // operations like shutdown UMA reporting for which the app context is no
 // longer viable for use.
+/*
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
   if (handleClipboardMessageBg_(message, sendResponse)) {
     return;
@@ -365,7 +372,7 @@ chrome.runtime.onSuspend.addListener(function() {
   // If we are about to suspend, report outstanding UMA immediately.
   reportUma();
 });
-
+*/
 
 /**
  * Queues up UMA data and schedules a call to reportUma.

@@ -244,13 +244,15 @@ Plugin.prototype.init = function() {
     // https://developer.chrome.com/apps/manifest/file_handlers
     window['arc'].onRelaunched = this.onRelaunched.bind(this);
   }
+  /*
   getCwsInstalled().then(function(is_cws_installed) {
     if (is_cws_installed) {
       chrome.runtime.getPlatformInfo(function(info) {
       }.bind(this));
     }
   }.bind(this));
-  this.backgroundPage_ = window['arc'].backgroundPage;
+  */
+  //this.backgroundPage_ = window['arc'].backgroundPage;
   this.initializing_ = false;
 };
 
@@ -440,6 +442,7 @@ Plugin.prototype.constructFromMetadata_ = function() {
   this.metadata_ = arcMetadata.get();
   this.shellCommands_ = [];
 
+  console.log(this.metadata_);
   // Additional packages to install.  Normally, the app apks are installed by
   // PackageManagerService during booting as we put them in
   // /vendor/chromium/crx.
@@ -922,6 +925,7 @@ Plugin.prototype.computeLayout_ = function(initialLayout, windowBounds,
 
   var userWidth;
   var userHeight;
+  /*
   if (zoomChanged || (initialLayout && !this.isWindowMaximized_())) {
     // Ignore window bounds on initial layout as the window sometimes does not
     // get resized by Chrome until after the plugin is initialized. Also take
@@ -930,6 +934,8 @@ Plugin.prototype.computeLayout_ = function(initialLayout, windowBounds,
     userWidth = androidWidth;
     userHeight = androidHeight;
   } else {
+  */
+  {
     // Window dimensions are not affected by the zoom level, but they are then
     // compared against DIPs. Scale them.
     userWidth = windowBounds.width / currentZoom;
@@ -1004,7 +1010,7 @@ Plugin.prototype.applyLayout_ = function(initialLayout, layout) {
     pluginElement.style.webkitTransform = 'rotate(-' + this.rotation_ + 'deg)';
     this.cachedRotation_ = this.rotation_;
   }
-
+/*
   if (initialLayout || layout.zoomChanged) {
     chrome.app.window.current().innerBounds.setMinimumSize(
         Math.round(layout.windowSize.width),
@@ -1013,6 +1019,7 @@ Plugin.prototype.applyLayout_ = function(initialLayout, layout) {
   if (layout.resizeWindow) {
     window.resizeTo(layout.windowSize.width, layout.windowSize.height);
   }
+*/
   appdiv.style.width = (layout.containerSize.width + 'px');
   appdiv.style.height = (layout.containerSize.height + 'px');
   if (pluginElement) {
@@ -1503,7 +1510,7 @@ Plugin.prototype.initializeTopBar_ = function(topbar) {
 Plugin.prototype.getWindowBounds_ = function() {
   if (chrome.app.window)
     return chrome.app.window.current().innerBounds;
-  return { width: 0, height: 0 };
+  return { width: 360, height: 640};
 };
 
 
@@ -1598,15 +1605,26 @@ Plugin.prototype.minimizeWindow_ = function() {
 
 
 // The background page creates window.arc object before this script loads.
-console.assert(window['arc']);
-console.assert(window['arc'].launchArgs);
+//console.assert(window['arc']);
+//console.assert(window['arc'].launchArgs);
+
+var arcObj = {
+  appLaunchTime: new Date().getTime(),
+  launchArgs: {
+    isKioskSession: false
+  },
+  runtimeUpdatedWhileRunning: null,
+  userEmail: ""
+};
+
+window['arc'] = arcObj;
 
 var plugin = null;
 // Allow the tests to construct the plugin as necessary.
-if (!window['arc'].launchArgs.suppressPluginInit) {
+//if (!window['arc'].launchArgs.suppressPluginInit) {
   var times = {
     'app_launch_time': window['arc'].appLaunchTime
   };
   plugin = new Plugin(times);
   plugin.init();
-}
+//}

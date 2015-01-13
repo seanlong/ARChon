@@ -191,6 +191,8 @@ ChildPlugin.prototype.handleMessageEvent_ = function(messageEvent) {
   }
   // Check primitive messages firstly.
   var message = messageEvent.data;
+  console.log(message);
+
   if (message.constructor == ArrayBuffer) {
     // Assume all ArrayBuffers are minidumps.
     this.backgroundPage_.crashReporter.reportCrash(
